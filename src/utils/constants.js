@@ -5,3 +5,5 @@ export const MENU =
 
 export const Company_NAME = 'Pixel';
 export const Digit = '6';
+
+export const Table_Heading = "Employees";
