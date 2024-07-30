@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import TableHeader from './TableHeader'
-import { User_DATA } from '../utils/constants';
+import { COLUMNS, User_DATA } from '../utils/constants';
+import DataTable from 'react-data-table-component';
 
 const Body = () => {
 
@@ -22,9 +23,9 @@ const Body = () => {
   };
 
   return (
-    <div>
+    <div className="sm:mx-16">
         <TableHeader/>
-
+        <DataTable className="mt-10 border rounded-lg border-gray-200" columns={COLUMNS} data={users} />
     </div>
   )
 }
