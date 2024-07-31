@@ -37,7 +37,7 @@ export const COLUMNS = [
   {
     name: "Demography",
     selector: (row) =>  `${row.gender === 'male' ? 'M' : 'F'}/${row.age}`,
-    sortable: false,
+    sortable: true,
   },
   {
     name: "Designation",

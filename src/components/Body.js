@@ -14,7 +14,7 @@ const Body = () => {
   return (
     <div className="sm:mx-20">
         <TableHeader/>
-        <DataTable className="mt-10 border rounded-lg border-gray-200" columns={COLUMNS} data={users} />
+        <DataTable className="my-10 border rounded-lg border-gray-200" columns={COLUMNS} data={users} />
     </div>
   )
 }
