@@ -5,6 +5,7 @@ import useFetchAPi from '../utils/useFetchAPI';
 
 const Body = () => {
 
+  //calling custom hook this will return users 
   const users = useFetchAPi();
 
   if(users==null){
