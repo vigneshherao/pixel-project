@@ -12,8 +12,8 @@ const FilterBtns = () => {
   
   return (
     <div className="flex justify-between">
-        <DropDown name={"Country"}/>
-        <DropDown name={"Gender"}/>
+        <DropDown name={"Country"} filterLists={countries}/>
+        <DropDown name={"Gender" } filterLists={genders}/>
     </div>
   )
 }
