@@ -6,7 +6,7 @@ import FilterBtns from "./FilterBtns";
 
 const TableHeader = () => {
   return (
-    <div className="sm:mx-20 mt-24 flex justify-between">
+    <div className="sm:mt-24 flex justify-between">
       <div>
         <h2 className="text-3xl font-bold">{Table_Heading}</h2>
       </div>

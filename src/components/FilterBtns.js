@@ -10,4 +10,4 @@ const FilterBtns = () => {
   )
 }
 
-export default FilterBtns
+export default FilterBtns;
